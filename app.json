@@ -1,0 +1,33 @@
+{
+    "expo": {
+        "name": "RobotRace",
+        "slug": "robotrace",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/icon.png",
+        "splash": {
+            "image": "./assets/splash.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff"
+        },
+        "updates": {
+            "enabled": true,
+            "checkAutomatically": "ON_LOAD"
+        },
+        "assetBundlePatterns": [
+            "**/*"
+        ],
+        "ios": {
+            "bundleIdentifier": "com.robotrace.app",
+            "buildNumber": "1.0.0"
+        },
+        "android": {
+            "package": "com.robotrace.app",
+            "versionCode": 1,
+            "permissions": []
+        },
+        "web": {
+            "favicon": "./assets/favicon.png"
+        }
+    }
+}
